@@ -1,0 +1,24 @@
+[user]
+  name = Carlos Rodriguez
+  email = carlos@eddorre.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  mg = merge
+  undo = reset HEAD
+  unstage = reset HEAD --
+  last = log -1 HEAD
+[diff]
+  tool = chdiff
+[difftool "chdiff"]
+  cmd = "/usr/bin/env chdiff" $LOCAL $REMOTE
+[difftool]
+  prompt = false
+[push]
+  default = tracking

@@ -19,10 +19,6 @@ load_gem 'wirble' do
   Wirble.colorize
 end
 
-load_gem 'hirb' do
-  Hirb.enable
-end
-
 load_gem 'bond' do
   Bond.start
 end

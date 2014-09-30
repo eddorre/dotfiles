@@ -13,6 +13,7 @@ set autoread
 set nobackup
 set noswapfile
 set nowrap
+set backspace=2
 
 command! Colors XtermColorTable
 

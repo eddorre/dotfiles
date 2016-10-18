@@ -18,8 +18,6 @@ set laststatus=2
 set guifont=Monaco:h12
 
 command! Colors XtermColorTable
-set background=dark
-colorscheme base16-railscasts
 
 " Cursor config
 set cursorline

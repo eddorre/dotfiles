@@ -14,6 +14,7 @@ set nobackup
 set noswapfile
 set nowrap
 set backspace=2
+set guifont=Monaco:h12
 
 command! Colors XtermColorTable
 
